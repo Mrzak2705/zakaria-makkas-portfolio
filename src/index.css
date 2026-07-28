@@ -121,6 +121,19 @@
   background-size: 48px 48px;
 }
 
+/* Fix: react-vertical-timeline-component forces position/margin on any <svg>
+   inside the timeline icon circle, assuming a raw 24px icon. This breaks
+   lucide-react icons (which render as <svg> wrapped in our own flex div).
+   Override it so our flex centering takes over instead. */
+.vertical-timeline-element-icon svg {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  margin: 0 !important;
+  width: 22px !important;
+  height: 22px !important;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

@@ -57,7 +57,7 @@ export const expertise = [
     items: ["JUnit", "Postman", "Unit Testing", "API Testing", "Integration Testing", "Functional Testing", "Regression Testing", "User Acceptance Testing", "Defect Analysis"],
   },
   {
-    group: "Enterprise Systems & Integration",
+    group: "Core Banking",
     items: ["Temenos Transact T24", "TAFJ", "jBASE / InfoBasic", "OFS", "COB Processing", "REST Web Services", "SOAP Web Services", "Batch Processing", "File Exchange", "Data Mapping", "JasperReports"],
   },
   {
